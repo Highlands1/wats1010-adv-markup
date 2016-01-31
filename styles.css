@@ -1,1 +1,78 @@
 /* Styles for the Advanced Markup assignment. */
+
+body {
+  background-color: lightgray;
+  width: 960px;
+  Margin: 0 Auto;
+}
+nav ul li {
+  display: inline;
+}
+#sidebar li{
+  display: inline;
+}
+.active {
+  font-weight:bold;
+}
+#sidebar {
+  width: 250px;
+  float: right;
+  margin: 20px;
+  padding: 10px; 
+  border-radius: 15%;
+  box-shadow: 5px 5px 5px 5px black;
+  background-color: rgba(255,0,0,0.3);
+}
+.top-nav{
+  margin-left: -41px;
+}
+
+img {
+  float: left;
+  padding-right: 10px;
+}
+.caption{
+  font-size: 15px;
+  font-style: italic;
+}
+ul {
+  list-style-type:none;
+}
+footer {
+  clear: both;
+}
+.poem {
+ font-style: italic;
+ font-size: 20px;
+ font-weight: bold;
+}
+.firstcharacter {
+  float: left; 
+  color: #903; 
+  font-size: 75px; 
+  line-height: 60px; 
+  padding-top: 4px; 
+  padding-right: 8px; 
+  padding-left: 3px; 
+  font-family: Georgia; 
+}
+
+dd {
+  float: right;
+  margin-top:-20px;
+}
+td{
+  padding-left: 12px;
+}
+.bottom-nav{
+  margin-left: -41px;
+}
+.bibliography{
+  margin-left: -41px;
+}
+
+#selected_works {
+  background-color: rgba(255,0,0,0.3);
+  border: 2px solid; 
+}
+
